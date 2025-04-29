@@ -280,7 +280,7 @@ def writethetext(folder_path, idx):
     name = crypt_encode("관리자", pk)
     email = crypt_encode("", pk)
     subject_enc = crypt_encode("[영어성경부]"+subject, pk)
-    password = crypt_encode("bunsung1009!", pk)
+    password = crypt_encode("", pk)
     optEditor = crypt_encode("Y", pk)
     content = crypt_encode(html, pk)
     dateChange = crypt_encode("Y", pk)
@@ -338,7 +338,7 @@ def writethetext(folder_path, idx):
     print(r.text)
     
 if __name__ == '__main__':
-    login("buns1997","bunsung1009!")    #왼쪽에 id, 오른쪽에 pw를 적으면 됨
+    login("","")    #왼쪽에 id, 오른쪽에 pw를 적으면 됨
     
     #directory 선택(선택된 directory에는 파일만 있어야 됨)
     directory="/home/dong/Desktop/file/다음세대/영어성경부"
