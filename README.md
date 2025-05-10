@@ -1,4 +1,4 @@
-# DownandUpload
+# Download and Upload
 
 This is a project that requires moving data as changed church's homepage
 
